@@ -1,5 +1,5 @@
 import React from 'react';
-
+import avatar from '../../assets/img/avatar.jpg'
 function About() {
     return (
         <section className="py-8">
@@ -7,16 +7,17 @@ function About() {
                 <div className="max-w-3xl mx-auto">
                     <figure>
                         <blockquote>
-                            <p className="text-gray-800 text-xl text-center font-semibold sm:text-2xl">
-                                “Тут что то типа приветствия: <br/> Здравстуйте ,меня зовут .... я занимаюсь .... итд“
+                            <p className="text-gray-800 text-xl text-center font-semibold md:text-4xl">
+                                “Компания Феникс“ - это команда настоящих профессионалов своего дела, мы рады приветствовать Вас!<br/>
+                                Качество, гарантия, надежность - это то, что мы гарантируем нашим клиентам. <br/>
                             </p>
                         </blockquote>
                         <div className="flex justify-center items-center gap-x-4 mt-6">
-                            <img src="https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg"
-                                 className="w-16 h-16 rounded-full" alt=''/>
+                            <img src={avatar}
+                                 className="w-16 h-16 rounded-full object-cover" alt=''/>
                             <div>
-                                <span className="block text-gray-800 font-semibold">Имя</span>
-                                <span className="block text-gray-600 text-sm mt-0.5">Фамилия</span>
+                                <span className="block text-gray-800 font-semibold">Основатель компании</span>
+                                <span className="block text-gray-600 text-sm mt-0.5">"Фамилия" Олег</span>
                             </div>
                         </div>
                     </figure>

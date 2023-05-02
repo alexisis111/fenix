@@ -7,7 +7,8 @@ import Footer from "./components/footer/footer";
 import Parallax from "./parallax";
 import Video from "./components/videogallery/video";
 import Otzyvu from "./components/otzyvu/otzyvu";
-import Faq from "./components/faq";
+import Faq from "./components/faq/faq";
+import Map from "./components/map/map";
 
 
 
@@ -22,6 +23,7 @@ function App() {
             <Video />
             <Otzyvu />
             <Faq />
+            <Map />
             <Footer />
         </>
     );

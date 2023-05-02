@@ -8,7 +8,7 @@ function About() {
                     <figure>
                         <blockquote>
                             <p className="text-gray-800 text-xl text-center font-semibold md:text-4xl">
-                                “Компания Феникс“ - это команда настоящих профессионалов своего дела, мы рады приветствовать Вас!<br/>
+                                “Феникс“ - это команда настоящих профессионалов своего дела, мы рады приветствовать Вас!<br/>
                                 Качество, гарантия, надежность - это то, что мы гарантируем нашим клиентам. <br/>
                             </p>
                         </blockquote>
@@ -16,8 +16,8 @@ function About() {
                             <img src={avatar}
                                  className="w-16 h-16 rounded-full object-cover" alt=''/>
                             <div>
-                                <span className="block text-gray-800 font-semibold">Основатель компании</span>
-                                <span className="block text-gray-600 text-sm mt-0.5">"Фамилия" Олег</span>
+                                <span className="block text-gray-800 font-semibold">Основатель компании "Феникс"</span>
+                                <span className="block text-gray-600 text-sm mt-0.5">Олиевский Олег</span>
                             </div>
                         </div>
                     </figure>

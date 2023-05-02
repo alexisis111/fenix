@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/fenix/static/css/main.0bef3d3a.css",
-    "main.js": "/fenix/static/js/main.91147821.js",
+    "main.css": "/fenix/static/css/main.ec845312.css",
+    "main.js": "/fenix/static/js/main.4068ec9a.js",
     "static/media/otz3.png": "/fenix/static/media/otz3.9508aee39daca138d709.png",
-    "static/media/avatar.jpg": "/fenix/static/media/avatar.0c4f942f05a8fd0e3b53.jpg",
     "static/media/otz1.png": "/fenix/static/media/otz1.688d2de2696fab0b1cb0.png",
     "static/media/otz6.png": "/fenix/static/media/otz6.eab308f0bbf81ad24957.png",
+    "static/media/avatar.jpg": "/fenix/static/media/avatar.234c140f635997cfab91.jpg",
     "static/media/otz5.png": "/fenix/static/media/otz5.7e7ff7ed0b15ee57b2d0.png",
     "static/media/otz2.png": "/fenix/static/media/otz2.654881e3dcad9dc94fe8.png",
     "static/media/otz4.png": "/fenix/static/media/otz4.5e669b06ebbdf302f3c5.png",
@@ -15,11 +15,11 @@
     "static/media/stairs.svg": "/fenix/static/media/stairs.97d9ed691171b43f9d8e19ea8b226c31.svg",
     "static/media/door.svg": "/fenix/static/media/door.9eb74641ebe57b43d41907178d178f23.svg",
     "index.html": "/fenix/index.html",
-    "main.0bef3d3a.css.map": "/fenix/static/css/main.0bef3d3a.css.map",
-    "main.91147821.js.map": "/fenix/static/js/main.91147821.js.map"
+    "main.ec845312.css.map": "/fenix/static/css/main.ec845312.css.map",
+    "main.4068ec9a.js.map": "/fenix/static/js/main.4068ec9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bef3d3a.css",
-    "static/js/main.91147821.js"
+    "static/css/main.ec845312.css",
+    "static/js/main.4068ec9a.js"
   ]
 }

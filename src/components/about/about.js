@@ -2,7 +2,7 @@ import React from 'react';
 import avatar from '../../assets/img/avatar.jpg'
 function About() {
     return (
-        <section className="py-8">
+        <section className="py-8 bg-gray-200">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
                 <div className="max-w-3xl mx-auto">
                     <figure>

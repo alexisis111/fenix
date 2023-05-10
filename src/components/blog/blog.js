@@ -61,7 +61,7 @@ const posts = [
 function Blog() {
     return (
         <section className="py-8 bg-gray-200">
-            <h1 className="text-gray-800 text-3xl font-extrabold sm:text-4xl text-center ">Наши работы</h1>
+            <h1 className="text-gray-800 text-3xl font-extrabold sm:text-4xl text-center ">Фотогалерея</h1>
             <div className="max-w-screen-xl mx-auto px-4 md:px-8 ">
                 <ul className="grid gap-x-8 gap-y-10 mt-4 sm:grid-cols-2 lg:grid-cols-3 ">
                     {

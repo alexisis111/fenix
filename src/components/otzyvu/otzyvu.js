@@ -66,7 +66,7 @@ const Slider = () => {
 
     return (
         <>
-            <h1 className="text-gray-800 text-3xl font-extrabold sm:text-4xl text-center bg-gray-200 py-8">Отзывы наших клиентов</h1>
+            <h1 className="text-gray-800 font-extrabold text-center text-xl md:text-5xl bg-gray-200 py-8">Отзывы наших клиентов</h1>
             <div className="relative w-full h-64  md:h-screen  bg-gray-200">
                 <div className="absolute top-0 left-0 w-full h-full">
                     {slides.map((slide, index) => (
@@ -77,7 +77,7 @@ const Slider = () => {
                             }`}
                         >
                             <img
-                                data-fancybox="gallery"
+                                data-fancybox
                                 src={slide.src}
                                 alt={slide.alt}
                                 className="w-full h-full object-contain"

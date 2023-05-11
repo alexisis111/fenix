@@ -77,10 +77,10 @@ const Slider = () => {
                             }`}
                         >
                             <img
-                                data-fancybox
+                                data-fancybox="gallery"
                                 src={slide.src}
                                 alt={slide.alt}
-                                className="w-full h-full object-contain"
+                                className="w-full h-full object-contain cursor-zoom-in"
                             />
                         </div>
                     ))}

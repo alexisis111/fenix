@@ -69,8 +69,11 @@ function Map() {
                 </div>
                 <div className="bg-gray-800 rounded-md lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 ">
                     <h2 className="text-white text-2xl font-extrabold text-center">Обратная связь</h2>
-                    <p className="leading-relaxed mb-5 text-white text-center">
+                    <p className="leading-relaxed text-white text-center">
                         Оставьте заявку и мы свяжемся с вами.
+                    </p>
+                    <p className="leading-relaxed text-white text-center mb-5">
+                        Консультация - бесплатно.
                     </p>
                     <form onSubmit={sendEmail}>
                         <div className="relative p-4 ">

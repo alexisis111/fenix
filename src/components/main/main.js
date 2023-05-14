@@ -74,12 +74,13 @@ function Main() {
                     </div>
                 </Modal>
             )}
-            < img className="w-full h-64 md:h-full object-cover" src="https://www.sofimeb.ru/images/banners/rem-meb.jpg"
-                  alt=""/>
+            {/*< img className="w-full h-64 md:h-full object-cover" src="https://www.sofimeb.ru/images/banners/rem-meb.jpg"*/}
+            {/*      alt=""/>*/}
+            <iframe className="w-full h-[600px] object-cover" src="https://gifer.com/embed/1o" allowFullScreen></iframe>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
                 <h1 className="text-white font-bold text-2xl md:text-5xl"
                     style={{backgroundColor: 'rgba(0, 0, 0, 0.7)', padding: "10px"}}>
-                    Реставрация, Восстанавление и Ремонт: <br/> Дверей, Окон, Мебели <br/> <img
+                    Реставрация, Восстанавление и Ремонт: <br/> Дверей, Окон, Лестниц <br/> <img
                     className='w-40 mx-auto mt-4' src={logo} alt=""/>
                 </h1>
                 <div className="mt-6 justify-center items-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">

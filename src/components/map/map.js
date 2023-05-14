@@ -68,7 +68,7 @@ function Map() {
                     </div>
                 </div>
                 <div className="bg-gray-800 rounded-md lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 ">
-                    <h2 className="text-white text-2xl font-extrabold text-center">Обратная связь</h2>
+                    <h2 className="text-white text-2xl font-extrabold text-center">Остались вопросы?</h2>
                     <p className="leading-relaxed text-white text-center">
                         Оставьте заявку и мы свяжемся с вами.
                     </p>

@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import logo from "../../assets/img/logo.png";
 import Modal from "../modal/modal";
 import emailjs from 'emailjs-com';
-
+import main from '../../assets/img/main.gif'
 function Main() {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [isFormSubmitted, setIsFormSubmitted] = useState(false);
@@ -74,9 +74,9 @@ function Main() {
                     </div>
                 </Modal>
             )}
-            {/*< img className="w-full h-64 md:h-full object-cover" src="https://www.sofimeb.ru/images/banners/rem-meb.jpg"*/}
-            {/*      alt=""/>*/}
-            <iframe className="w-full h-[600px] object-cover" src="https://gifer.com/embed/1o" allowFullScreen></iframe>
+            < img className="w-full h-[600px] object-cover" src={main}
+                  alt=""/>
+
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
                 <h1 className="text-white font-bold text-2xl md:text-5xl"
                     style={{backgroundColor: 'rgba(0, 0, 0, 0.7)', padding: "10px"}}>

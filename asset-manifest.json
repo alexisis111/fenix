@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fenix/static/css/main.e1402d42.css",
-    "main.js": "/fenix/static/js/main.81987aca.js",
+    "main.css": "/fenix/static/css/main.e8d0c614.css",
+    "main.js": "/fenix/static/js/main.d82b56a9.js",
     "static/media/photo6.jpg": "/fenix/static/media/photo6.686b2eef397cfb4dbc7b.jpg",
     "static/media/photo1.jpg": "/fenix/static/media/photo1.d48c5d29740c16d43781.jpg",
     "static/media/photo9.jpg": "/fenix/static/media/photo9.5645c49e6ec85747ebfc.jpg",
@@ -12,6 +12,7 @@
     "static/media/photo20.jpg": "/fenix/static/media/photo20.d84192588e9e7fa6d68a.jpg",
     "static/media/photo23.jpg": "/fenix/static/media/photo23.01c31687bc688ed6ea35.jpg",
     "static/media/photo2.jpg": "/fenix/static/media/photo2.19725e96109273d0fe82.jpg",
+    "static/media/main.gif": "/fenix/static/media/main.a0921b30f9ad62349a19.gif",
     "static/media/photo29.jpg": "/fenix/static/media/photo29.72dde403d80c3711302b.jpg",
     "static/media/photo39.jpg": "/fenix/static/media/photo39.174d81ef903fd842c6ba.jpg",
     "static/media/photo26.jpg": "/fenix/static/media/photo26.db56711836b75cc9ef74.jpg",
@@ -58,11 +59,11 @@
     "static/media/stairs.svg": "/fenix/static/media/stairs.97d9ed691171b43f9d8e19ea8b226c31.svg",
     "static/media/slick.woff": "/fenix/static/media/slick.295183786cd8a1389865.woff",
     "static/media/door.svg": "/fenix/static/media/door.9eb74641ebe57b43d41907178d178f23.svg",
-    "main.e1402d42.css.map": "/fenix/static/css/main.e1402d42.css.map",
-    "main.81987aca.js.map": "/fenix/static/js/main.81987aca.js.map"
+    "main.e8d0c614.css.map": "/fenix/static/css/main.e8d0c614.css.map",
+    "main.d82b56a9.js.map": "/fenix/static/js/main.d82b56a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1402d42.css",
-    "static/js/main.81987aca.js"
+    "static/css/main.e8d0c614.css",
+    "static/js/main.d82b56a9.js"
   ]
 }

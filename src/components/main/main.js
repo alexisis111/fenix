@@ -78,11 +78,11 @@ function Main() {
                   alt=""/>
 
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-                <h1 className="text-white font-bold text-2xl md:text-5xl"
+                <h3 className="text-4xl text-white font-extrabold mx-auto md:text-5xl"
                     style={{backgroundColor: 'rgba(0, 0, 0, 0.7)', padding: "10px"}}>
-                    Реставрация, Восстанавление и Ремонт: <br/> Дверей, Окон, Лестниц <br/> <img
+                    Реставрация, Восстанавление и Ремонт: <br/> Дверей, Окон и Лестниц <br/> <img
                     className='w-40 mx-auto mt-4' src={logo} alt=""/>
-                </h1>
+                </h3>
                 <div className="mt-6 justify-center items-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">
                     <button
                         className="block w-full mt-3 py-3 px-4 font-medium text-sm text-center text-white bg-gray-800 hover:bg-black active:shadow-none rounded-lg shadow sm:mt-0 sm:w-auto"

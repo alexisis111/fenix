@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import logo from '../../assets/img/logo.png'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faVk, faTelegram, faWhatsapp, faInstagram} from '@fortawesome/free-brands-svg-icons';
+import {Link} from "react-router-dom";
 
 
 function Navbar() {
@@ -17,20 +18,20 @@ function Navbar() {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
                         <div className="text-white font-bold text-xl">
-                            <img className='w-20' src={logo} alt=""/>
+                            <img className='w-24 mt-2' src={logo} alt=""/>
                         </div>
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
-                                <div href="#"
-                                     className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg font-medium">Главная
-                                </div>
-                                <div href="#"
-                                     className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg font-medium">О
-                                    нас
-                                </div>
-                                <div href="#"
-                                     className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg font-medium">Контакты
-                                </div>
+                                <Link to="/"
+                                      className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg font-medium">Главная
+                                </Link>
+                                <Link to="/about"
+                                      className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg font-medium">О
+                                    компании
+                                </Link>
+                                <Link to="/contacts"
+                                      className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-lg font-medium">Контакты
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -88,16 +89,16 @@ function Navbar() {
 
             <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`} id="mobile-menu">
                 <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                    <div href="#"
-                         className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Главная
-                    </div>
-                    <div href="#"
-                         className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">О
-                        нас
-                    </div>
-                    <div href="#"
-                         className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Контакты
-                    </div>
+                    <Link to="/"
+                          className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Главная
+                    </Link>
+                    <Link to="/about"
+                          className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">О
+                        компании
+                    </Link>
+                    <Link to="/contacts"
+                          className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Контакты
+                    </Link>
                 </div>
                 <div className="flex justify-evenly gap-x-6 p-4 text-gray-400 ">
                     <div className="flex items-center gap-x-6 text-gray-400 ">

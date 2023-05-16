@@ -19,7 +19,7 @@ function About() {
                                  className="w-16 h-16 rounded-full object-cover" alt=''/>
                             <div>
                                 <span className="block text-gray-800 font-semibold">Основатель компании "Феникс"</span>
-                                <span className="block text-gray-600 text-sm mt-0.5">Олиевский Олег</span>
+                                <span className="block text-gray-600 text-sm mt-0.5">Олег О.</span>
                             </div>
                         </div>
                     </div>

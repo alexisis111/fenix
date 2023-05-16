@@ -1,34 +1,22 @@
 import './App.css';
-import Navbar from "./components/navbar/navbar";
-import Main from "./components/main/main";
-import Blog from "./components/blog/blog";
-import About from "./components/about/about";
-import Footer from "./components/footer/footer";
-import Parallax from "./components/parallax/parallax";
-import Video from "./components/videogallery/video";
-import Otzyvu from "./components/otzyvu/otzyvu";
-import Faq from "./components/faq/faq";
-import Map from "./components/map/map";
-import PhotoGallery from "./components/blog/photoGallery";
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import Homepage from "./pages/homepage";
+import About from "./pages/about";
+import Contacts from "./pages/contacts";
+import NotFoundPage from "./pages/notFoundPage";
 
+const router = createBrowserRouter([
+    {path: '/', element: <Homepage/>},
+    {path: '/about', element: <About/>},
+    {path: '/contacts', element: <Contacts/>},
+    {path: '*', element: <NotFoundPage />},
 
+])
 
-function App() {
+const App = () => {
     return (
-        <>
-            <Navbar/>
-            <Main/>
-            <About />
-            <Parallax />
-            <PhotoGallery/>
-            {/*<Blog />*/}
-            <Video />
-            <Otzyvu />
-            <Faq />
-            <Map />
-            <Footer />
-        </>
-    );
+        <RouterProvider router={router}/>
+    )
 }
 
 export default App;

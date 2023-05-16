@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fenix/static/css/main.e8d0c614.css",
-    "main.js": "/fenix/static/js/main.d82b56a9.js",
+    "main.css": "/fenix/static/css/main.d4198b3a.css",
+    "main.js": "/fenix/static/js/main.92f25e1b.js",
     "static/media/photo6.jpg": "/fenix/static/media/photo6.686b2eef397cfb4dbc7b.jpg",
     "static/media/photo1.jpg": "/fenix/static/media/photo1.d48c5d29740c16d43781.jpg",
     "static/media/photo9.jpg": "/fenix/static/media/photo9.5645c49e6ec85747ebfc.jpg",
@@ -59,11 +59,11 @@
     "static/media/stairs.svg": "/fenix/static/media/stairs.97d9ed691171b43f9d8e19ea8b226c31.svg",
     "static/media/slick.woff": "/fenix/static/media/slick.295183786cd8a1389865.woff",
     "static/media/door.svg": "/fenix/static/media/door.9eb74641ebe57b43d41907178d178f23.svg",
-    "main.e8d0c614.css.map": "/fenix/static/css/main.e8d0c614.css.map",
-    "main.d82b56a9.js.map": "/fenix/static/js/main.d82b56a9.js.map"
+    "main.d4198b3a.css.map": "/fenix/static/css/main.d4198b3a.css.map",
+    "main.92f25e1b.js.map": "/fenix/static/js/main.92f25e1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8d0c614.css",
-    "static/js/main.d82b56a9.js"
+    "static/css/main.d4198b3a.css",
+    "static/js/main.92f25e1b.js"
   ]
 }

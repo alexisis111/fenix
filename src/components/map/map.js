@@ -1,37 +1,10 @@
-import React, {useState} from 'react';
-import emailjs from 'emailjs-com';
-import Modal from '../modal/modal';
+import React from 'react';
+import FormComponent from "../../formComponent";
 
 function Map() {
-    const [isModalOpen, setIsModalOpen] = useState(false);
-
-    function sendEmail(e) {
-        e.preventDefault();
-
-        emailjs
-            .sendForm('template_6sv31da', 'template_6sv31da', e.target, '310Zf60UfF_qtF07n')
-            .then(
-                (result) => {
-                    setIsModalOpen(true);
-                },
-                (error) => {
-                    console.log(error.text);
-                }
-            );
-
-        e.target.reset();
-    }
 
     return (
         <section className="text-gray-600 body-font relative bg-gray-200">
-            <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
-                <div className="w-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20 mx-auto text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"/>
-                    </svg>
-                    <h1>Сообщение отправлено!</h1>
-                </div>
-            </Modal>
             <div className="container py-4 mx-auto flex sm:flex-nowrap flex-wrap">
                 <div
                     className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
@@ -59,8 +32,8 @@ function Map() {
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">Емаил</h2>
-                            <a href="mailto:odofenix@yandex.ru" className="text-indigo-500 leading-relaxed">
-                                odofenix@yandex.ru
+                            <a href="mailto:fenixRestSpb@yandex.ru" className="text-indigo-500 leading-relaxed">
+                                fenixRestSpb@yandex.ru
                             </a>
                             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">Телефон</h2>
                             <p className="leading-relaxed">+7 (950) 028 - 80 - 89 Олег.</p>
@@ -75,31 +48,7 @@ function Map() {
                     <p className="leading-relaxed text-white text-center mb-5">
                         Консультация - бесплатно.
                     </p>
-                    <form onSubmit={sendEmail}>
-                        <div className="relative p-4 ">
-                            <label htmlFor="name" className="leading-7 text-sm text-white"></label>
-                            <input type="text" id="name" name="name" required placeholder="Имя"
-                                   className="w-full bg-gray-800 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
-                        </div>
-                        <div className="relative p-4">
-                            <label htmlFor="email" className="leading-7 text-sm text-white"></label>
-                            <input type="tel" id="phone" name="phone" required placeholder="Телефон"
-                                   className="w-full bg-gray-800 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
-                        </div>
-                        <div className="relative p-4">
-                            <label htmlFor="message" className="leading-7 text-sm text-white"></label>
-                            <textarea id="message" name="message" required placeholder="Текст сообщения"
-                                      className="w-full bg-gray-800 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-white py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
-                        </div>
-                        <button type="submit"
-                                className="text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg flex mx-auto ">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mx-auto text-white"
-                                 fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                                      d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"/>
-                            </svg>
-                        </button>
-                    </form>
+                    <FormComponent/>
                 </div>
             </div>
         </section>

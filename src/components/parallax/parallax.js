@@ -6,12 +6,16 @@ import home from "../../assets/img/svg/home.svg";
 import stairs from "../../assets/img/svg/stairs.svg";
 import brush from "../../assets/img/svg/brush.svg";
 
+
 function MyComponent() {
     return (
         <>
             <Parallax bgImage="https://life.akbars.ru/upload/iblock/71e/skpaawor8vsk17a36mf9fhd3me5feww4.png"  blur={{ min: -15, max: 15 }}>
                 <div className="m-4 sm:text-center sm:max-w-md sm:mx-auto ">
-                    {/*<h1 style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: "10px"}} className="text-white text-3xl font-extrabold sm:text-4xl text-center ">Берем в работу</h1>*/}
+                    <h3 className="text-xl text-white font-extrabold mx-auto text-center md:text-2xl"
+                        style={{backgroundColor: 'rgba(0, 0, 0, 0.7)', padding: "5px"}}>
+                        Берем в работу
+                    </h3>
                 </div>
                 <div className='sm:flex justify-evenly m-8'>
                     <div className='bg-gray-800 rounded-lg shadow-2xl m-4 p-4'>

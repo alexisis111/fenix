@@ -60,7 +60,7 @@ function PhotoGallery() {
 
     return (
         <div className="py-8 bg-gray-200">
-            <h1 className="text-gray-800 font-extrabold text-center mb-8 text-xl md:text-5xl">Фотогалерея</h1>
+            <h1 className="text-gray-800 font-extrabold text-center mb-8 text-xl md:text-5xl">Оцените нашу работу</h1>
             <div className="slider-wrapper relative overflow-x-hidden">
                 <Slider {...settings} ref={sliderRef}>
                     {photos.map((photo, index) => (

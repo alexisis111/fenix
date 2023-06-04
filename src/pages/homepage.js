@@ -7,7 +7,6 @@ import PhotoGallery from "../components/blog/photoGallery";
 import Video from "../components/videogallery/video";
 import Otzyvu from "../components/otzyvu/otzyvu";
 import Faq from "../components/faq/faq";
-import Map from "../components/map/map";
 import Footer from "../components/footer/footer";
 
 function Homepage() {
@@ -21,7 +20,6 @@ function Homepage() {
             <Video />
             <Otzyvu />
             <Faq />
-            <Map />
             <Footer />
         </>
     );

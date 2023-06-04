@@ -16,7 +16,7 @@ const videoUrls = [
 function Video() {
     return (
         <section className="bg-gray-200">
-            <h1 className="text-gray-800 font-extrabold text-center mb-8 text-xl md:text-5xl">Видеогалерея</h1>
+            <h1 className="text-gray-800 font-extrabold text-center mb-8 text-xl md:text-5xl">Видео наших работ</h1>
             <div className="p-4 px-16 grid gap-x-8 gap-y-10 mt-4 sm:grid-cols-2 lg:grid-cols-3">
                 {
                     videoUrls.map((v) => (

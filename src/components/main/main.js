@@ -1,8 +1,7 @@
-import React, {useState} from 'react';
-import logo from "../../assets/img/logo.png";
+import React, { useState} from 'react';
 import Modal from "../modal/modal";
-import main from '../../assets/img/main.gif';
-import FormComponent from "../../formComponent";
+import door from '../../assets/img/door.mp4';
+import FormComponent from "../formComponent/formComponent";
 
 function Main() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -11,6 +10,9 @@ function Main() {
     function closeModal() {
         setIsFormSubmitted(false);
     }
+
+
+
 
     return (
         <div className="relative">
@@ -36,13 +38,16 @@ function Main() {
                     </div>
                 </Modal>
             )}
-            <img className="w-full h-[600px] object-cover" src={main} alt=""/>
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-                <h3 className="text-4xl text-white font-extrabold mx-auto md:text-5xl"
-                    style={{backgroundColor: 'rgba(0, 0, 0, 0.7)', padding: "10px"}}>
-                    Реставрация, Восстанавление и Ремонт: <br/> Дверей, Окон и Лестниц <br/> <img
-                    className='w-40 mx-auto mt-4' src={logo} alt=""/>
-                </h3>
+            <video className="w-full h-[400px] object-cover" autoPlay loop muted>
+                <source src={door} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center ">
+                    <h3
+                        className="text-4xl text-white font-extrabold mx-auto md:text-5xl animate__animated animate__infinite animate__zoomIn animate__slower"
+                    >
+                        Новая жизнь для исторически<br />значимых вещей
+                    </h3>
                 <div className="mt-6 justify-center items-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">
                     <button
                         className="block w-full mt-3 py-3 px-4 font-medium text-sm text-center text-white bg-gray-800 hover:bg-black active:shadow-none rounded-lg shadow sm:mt-0 sm:w-auto"

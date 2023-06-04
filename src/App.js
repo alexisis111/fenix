@@ -1,13 +1,13 @@
 import './App.css';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Homepage from "./pages/homepage";
-import About from "./pages/about";
+import AboutPage from "./pages/about";
 import Contacts from "./pages/contacts";
 import NotFoundPage from "./pages/notFoundPage";
 
 const router = createBrowserRouter([
     {path: '/', element: <Homepage/>},
-    {path: '/about', element: <About/>},
+    {path: '/about', element: <AboutPage/>},
     {path: '/contacts', element: <Contacts/>},
     {path: '*', element: <NotFoundPage />},
 

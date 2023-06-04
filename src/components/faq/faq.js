@@ -87,7 +87,7 @@ export default () => {
         <div className="bg-gray-200 p-8">
             <section className="leading-relaxed max-w-screen-xl mx-auto p-4 md:p-8 bg-gray-300 rounded-md">
                 <div className="space-y-3 text-center">
-                    <h1 className="text-gray-800 font-extrabold text-center mb-8 text-xl md:text-5xl">Отвечаем на вопросы</h1>
+                    <h1 className="text-gray-800 font-extrabold text-center mb-8 text-xl md:text-5xl">У вас вопрос? Отвечаем.</h1>
                 </div>
                 <div className="mt-4 max-w-2xl mx-auto ">
                     {

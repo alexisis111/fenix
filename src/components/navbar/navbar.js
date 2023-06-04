@@ -53,13 +53,13 @@ function Navbar() {
                             <div>
                                 <a href="https://t.me/FenixRest_bot" target="_blank" rel="noopener noreferrer"
                                    className="flex items-center hover:text-gray-500">
-                                    <FontAwesomeIcon icon={faTelegram} class="w-7 h-7"/>
+                                    <FontAwesomeIcon icon={faTelegram} className="w-7 h-7"/>
                                 </a>
                             </div>
                             <div>
                                 <a href="https://wa.me/+79500288089" target="_blank" rel="noopener noreferrer"
                                    className="flex items-center hover:text-gray-500">
-                                    <FontAwesomeIcon icon={faWhatsapp} class="w-8 h-8"/>
+                                    <FontAwesomeIcon icon={faWhatsapp} className="w-8 h-8"/>
                                 </a>
                             </div>
                         </div>
@@ -117,13 +117,13 @@ function Navbar() {
                         <div>
                             <a href="https://t.me/FenixRest_bot" target="_blank" rel="noopener noreferrer"
                                className="flex items-center hover:text-gray-500">
-                                <FontAwesomeIcon icon={faTelegram} class="w-7 h-7"/>
+                                <FontAwesomeIcon icon={faTelegram} className="w-7 h-7"/>
                             </a>
                         </div>
                         <div>
                             <a href="https://wa.me/+79500288089" target="_blank" rel="noopener noreferrer"
                                className="flex items-center hover:text-gray-500">
-                                <FontAwesomeIcon icon={faWhatsapp} class="w-8 h-8"/>
+                                <FontAwesomeIcon icon={faWhatsapp} className="w-8 h-8"/>
                             </a>
                         </div>
                     </div>
